@@ -1,4 +1,3 @@
-
 return {
   "nvim-lualine/lualine.nvim",
   event = "VeryLazy",
@@ -13,9 +12,12 @@ return {
         lualine_a = {'mode'},
         lualine_b = {'branch', 'diff', 'diagnostics'},
         lualine_c = {'filename'},
-        lualine_x = {'fileformat'},
+        lualine_x = {
+          {'fileformat' , symbols = { unix = " " } },
+          { "filetype" },
+        },
         lualine_y = {'progress'},
-        lualine_z = {'location'}
+        lualine_z = {'location'},
       },
     }
     return config
