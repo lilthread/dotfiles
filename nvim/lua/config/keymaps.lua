@@ -12,5 +12,3 @@ vim.keymap.set("n", "<leader>vv", "<cmd>LoveRun<cr>")
 -- RANDOM 
 vim.keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
 vim.keymap.set("n", "<leader>fms", "<cmd>CellularAutomaton scramble<CR>")
-
-

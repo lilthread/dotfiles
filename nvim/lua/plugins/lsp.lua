@@ -1,12 +1,11 @@
 return {
   {
     "neovim/nvim-lspconfig",
-    build = ":TSUpdate",
     config = function()
-      require("mason").setup()
       require("mason-lspconfig").setup({
         ensure_installed = {
           "clangd",
+          "omnisharp",
           "pyright",
           "ts_ls",
           "rust_analyzer",
@@ -17,8 +16,6 @@ return {
           "jsonls",
           "dockerls",
         },
-        highlight = { enable = true },
-        indent = { enable = false },
       })
     end,
   },
