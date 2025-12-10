@@ -3,7 +3,15 @@
 <br>
 <summary>Screenshot </summary>
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshots/1.png)
+
+</details>
+
+<details open>
+<br>
+<summary>Screenshot </summary>
+
+![Screenshot](screenshots/2.png)
 
 </details>
 
