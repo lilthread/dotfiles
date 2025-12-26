@@ -1,4 +1,8 @@
-# Lilthread's Dotfiles
+# Dotfiles
+
+## Description
+This repository contains some configurations that I've been doing over time.
+
 <details open>
 <br>
 <summary>Screenshot </summary>
@@ -15,5 +19,3 @@
 
 </details>
 
-## Description
-This repository contains some configurations that I've been doing over time.

@@ -20,6 +20,10 @@ return {
         lualine_z = {'location'},
       },
     }
+
+    if os.getenv('TMUX') then
+      vim.defer_fn(function() vim.o.laststatus=0 end, 0)
+    end
     return config
   end,
 }
