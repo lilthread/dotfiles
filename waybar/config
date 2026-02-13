@@ -25,7 +25,7 @@
     "tooltip": false
   },
   "custom/applauncher": {
-    "format": "〇", 
+    "format": " ", 
     "on-click": "wlogout",
     "tooltip": false
   },

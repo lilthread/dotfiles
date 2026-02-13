@@ -1,8 +1,8 @@
 * {
-  font-family: Maple Mono;
+  font-family: maple mono;
   border-radius: 12;
   font-size: 14px;
-  padding: 0px; 
+  padding: 1px; 
   background: transparent;
 }
 
@@ -10,7 +10,7 @@ window#waybar {
   background-image: linear-gradient(to bottom, #141216 100%);
   border-radius: 14px;
   padding: 2px;
-  border-color: red;
+  border-color: black;
 }
 
 #battery,

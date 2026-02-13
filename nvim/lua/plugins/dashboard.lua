@@ -16,9 +16,9 @@ return {
           local cmds = {
             {
               title = "Welcome back " .. string.upper(string.sub(username, 1, 1)) .. string.sub(username, 2),
-              cmd = "colorscript -e suckless",
+              cmd = "pokemon-colorscripts --no-title -n hawlucha ",
               icon = " ",
-              height = 5,
+              height = 15,
               enabled = true,
             },
           }
