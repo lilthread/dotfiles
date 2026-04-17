@@ -1,4 +1,4 @@
-local username = os.getenv("USER") or os.getenv("USERNAME")
+local username = os.getenv("USER") or os.getenv("USERNAME") or ""
 
 return {
   "folke/snacks.nvim",
@@ -16,31 +16,15 @@ return {
           local cmds = {
             {
               title = "Welcome back " .. string.upper(string.sub(username, 1, 1)) .. string.sub(username, 2),
-              cmd = "pokemon-colorscripts --no-title -n hawlucha ",
+              cmd = "echo $(date)",
               icon = " ",
-              height = 15,
+              height = 1,
               enabled = true,
             },
           }
-          return vim.tbl_map(function(cmd)
-            return vim.tbl_extend("force", {
-              pane = 2,
-              section = "terminal",
-              padding = 1,
-              indent = 3,
-            }, cmd)
-          end, cmds)
         end,
         {
-          pane = 2,
-          icon = " ",
-          title = "Recent Files",
-          section = "recent_files",
-          indent = 2,
-          padding = 1,
-        },
-        {
-          pane = 2,
+          pane = 1,
           icon = " ",
           title = "Projects",
           section = "projects",

@@ -1,13 +1,13 @@
 * {
   font-family: maple mono;
-  border-radius: 12;
+  border-radius: 12px;
   font-size: 14px;
   padding: 1px; 
   background: transparent;
 }
 
 window#waybar {
-  background-image: linear-gradient(to bottom, #141216 100%);
+  background: #141216;
   border-radius: 14px;
   padding: 2px;
   border-color: black;
@@ -19,7 +19,7 @@ window#waybar {
 #custom-applauncher,
 #workspaces,
 #pulseaudio {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+  background: #27232b;
 
   margin: 6px;
   margin-right: 0px;
@@ -36,7 +36,7 @@ window#waybar {
 }
 
 #pulseaudio:hover {
-  background-image: linear-gradient(to bottom, #ac82e9 100%);
+  background: #ac82e9;
   color: #141216;
   transition-duration: 120ms;
 }
@@ -46,7 +46,7 @@ window#waybar {
   transition-duration: 120ms;
 }
 #custom-applauncher:hover {
-  background-image: linear-gradient(to bottom, #ac82e9 100%);
+  background: #ac82e9;
   color: #141216;
   transition-duration: 120ms;
 }
