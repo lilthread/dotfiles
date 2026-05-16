@@ -1,14 +1,16 @@
 {
-  "layer": "bot",
+  "layer": "top",
+  "position": "left",
+  //"layer": "bot",
   "spacing": 0,
   "height": 0,
-  "margin-bottom": 5,
-  "margin-top": 5,
-  "position": "top",
-  "margin-right": 200,
-  "margin-left": 200,
+  "margin-bottom": 1,
+  "margin-top": 0,
+  //"position": "top",
+  "margin-right": 0,
+  "margin-left": 0,
   "modules-left": [
-    "hyprland/workspaces",
+    "hyprland/workspaces"
   ],
   "modules-center": [
     "custom/applauncher"
@@ -30,19 +32,20 @@
     "tooltip": false
   },
   "clock": {
-    "format": "󰅐 {:%H:%M}",
+    "format": "{:%H\n%M}",
     "tooltip": false
   },
   "network": {
-    "format-wifi": " {bandwidthDownBits}",
-    "format-ethernet": " {bandwidthDownBits}",
-    "format-disconnected": "󰤮 No Network",
-    //"format-disconnected": " ",
+    "format-wifi": " ",
+    "format-ethernet": " ",
+    "format-disconnected": "󰤮 ",
     "interval": 5,
     "tooltip": false
+
   },
   "pulseaudio": {
     "scroll-step": 5,
+    "rotate": 90,
     "max-volume": 150,
     "format": "{icon} {volume}%",
     "format-bluetooth": "{icon} {volume}%",
@@ -61,6 +64,7 @@
       "warning": 20,
       "critical": 15
     },
+    "rotate": 90,
     "format": "{icon} {capacity}%",
     "format-charging": "󰂄 {capacity}%",
     "format-plugged": "󰂄{capacity}%",
@@ -70,6 +74,6 @@
       "󱊡",
       "󱊢",
       "󱊣"
-    ],
+    ]
   }
 }

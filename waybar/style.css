@@ -1,6 +1,5 @@
 * {
-  font-family: maple mono;
-  border-radius: 12px;
+  font-family: JetBrainsMono Nerd Font;
   font-size: 14px;
   padding: 1px; 
   background: transparent;
@@ -8,7 +7,6 @@
 
 window#waybar {
   background: #141216;
-  border-radius: 14px;
   padding: 2px;
   border-color: black;
 }
