@@ -1,4 +1,20 @@
+-- lua/plugins/rose-pine.lua
 return {
+	"rose-pine/neovim",
+	name = "rose-pine",
+	config = function()
+    require("rose-pine").setup({
+      palette = {
+        moon = {
+          base = "#000000",      -- main background
+        },
+      },
+    })
+
+    vim.cmd("colorscheme rose-pine-moon")
+	end
+}
+--[[return {
   {
     {
       "rebelot/kanagawa.nvim",
@@ -42,4 +58,4 @@ return {
     },
   }
 }
-
+]]

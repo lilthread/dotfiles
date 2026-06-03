@@ -14,7 +14,6 @@ window#waybar {
 #battery,
 #network,
 #clock,
-#custom-applauncher,
 #workspaces,
 #pulseaudio {
   background: #27232b;
@@ -34,16 +33,6 @@ window#waybar {
 }
 
 #pulseaudio:hover {
-  background: #ac82e9;
-  color: #141216;
-  transition-duration: 120ms;
-}
-
-#custom-applauncher {
-  font-weight: bold;
-  transition-duration: 120ms;
-}
-#custom-applauncher:hover {
   background: #ac82e9;
   color: #141216;
   transition-duration: 120ms;
