@@ -5,7 +5,7 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "clangd",
-          "omnisharp",
+          "jdtls",
           "pyright",
           "ts_ls",
           "rust_analyzer",
