@@ -1,0 +1,23 @@
+format = """\
+($directory)\
+$git_branch\
+\n$character\
+"""
+
+add_newline = true
+command_timeout = 3600000
+
+[directory]
+format = "[$path](bold fg:#e3c7fc) "
+truncation_length = 4
+truncation_symbol = "…/"
+read_only = "󰌾 "
+read_only_style = "fg:#a8899c"
+
+[git_branch]
+symbol = " "
+style = "bold fg:#F18FB0"
+format = "[](fg:#140a1d)[$symbol$branch]($style)[](fg:#140a1d)"
+
+[character]
+success_symbol = "[󰣇 ](bold fg:#FF4971)"
