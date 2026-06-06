@@ -12,6 +12,9 @@
   "modules-left": [
     "hyprland/workspaces"
   ],
+  "modules-center": [
+    "custom/applauncher"
+  ],
   "modules-right": [
     "network",
     "battery",
