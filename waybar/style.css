@@ -2,14 +2,12 @@
   font-family: JetBrainsMono Nerd Font;
   font-size: 14px;
   padding: 1px; 
-  background: transparent;
 }
 
 window#waybar {
-  background: #141216;
-
-  padding: 2px;
-  border-color: black;
+  background: rgba (0, 0, 0, 0.73);
+  padding: 2px; 
+  border-radius: 8px;
 }
 
 #battery,
@@ -18,14 +16,12 @@ window#waybar {
 #custom-applauncher,
 #workspaces,
 #pulseaudio {
-  background: #27232b;
-
+  background: transparent;
   margin: 6px;
   margin-right: 0px;
   padding: 4px 8px;
   border-radius: 8px;
-  color: #d8cab8;
-
+  color: rgb(230, 226, 222);
   border-style: none;
   transition-duration: 120ms;
 }
@@ -77,10 +73,6 @@ window#waybar {
   color: #fcb167;
 }
 
-#battery {
-  background-color: #222222;
-  color: #d8cab8;
-}
 #battery.warning,
 #battery.critical,
 #battery.urgent {
